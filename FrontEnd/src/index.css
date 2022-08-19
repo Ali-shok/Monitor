@@ -20,3 +20,34 @@ code {
 .text {
   color: #dc9e1f;
 }
+
+.right-item {
+  float: right;
+  padding: auto;
+  margin: 1px;
+}
+.themes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+  padding: 8px;
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #dc9e1f;
+  text-decoration: underline;
+}
+.height {
+  max-height: 200px;
+}
